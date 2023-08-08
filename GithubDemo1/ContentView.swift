@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack{
         Text("Welcome to GitHub")
             .padding()
+            .font(.title)
+            Text("GitHub allow others to contribute to your code")
+                .font(.subheadline)
+        }
     }
 }
 
